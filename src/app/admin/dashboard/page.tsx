@@ -138,7 +138,7 @@ export default function AdminDashboard() {
     <React.Fragment key={order._id}>
       <tr
         className="cursor-pointer hover:bg-yellow-100 transition-all"
-        onClick={() => toggleOrderDetails(order._id)}
+        
       >
         <td className="px-4 py-2 text-center">{order._id}</td>
         <td className="px-4 py-2">{order.firstName} {order.lastName}</td>
